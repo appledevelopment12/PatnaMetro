@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C652A9D186E34DC5E0DB1C23 /* Pods_Patna_Metro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B62BE8F9341C0F028F43CD1 /* Pods_Patna_Metro.framework */; };
+		F907945C2EF119F300294A7C /* CheckNewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F907945B2EF119F300294A7C /* CheckNewModel.swift */; };
 		F91C815B2E8198AF00F2E861 /* MetroMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91C815A2E8198AF00F2E861 /* MetroMapVC.swift */; };
 		F91C815D2E827DCF00F2E861 /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91C815C2E827DCF00F2E861 /* NetWorkManager.swift */; };
 		F95A67E42E7EA42800A9B476 /* MetroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95A67D02E7EA42800A9B476 /* MetroModel.swift */; };
@@ -28,6 +29,7 @@
 		00B10E4D5AD9016061FA48B9 /* Pods-Patna Metro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Patna Metro.debug.xcconfig"; path = "Target Support Files/Pods-Patna Metro/Pods-Patna Metro.debug.xcconfig"; sourceTree = "<group>"; };
 		381429EDF2D55709E5F6947C /* Pods-Patna Metro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Patna Metro.release.xcconfig"; path = "Target Support Files/Pods-Patna Metro/Pods-Patna Metro.release.xcconfig"; sourceTree = "<group>"; };
 		4B62BE8F9341C0F028F43CD1 /* Pods_Patna_Metro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Patna_Metro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F907945B2EF119F300294A7C /* CheckNewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckNewModel.swift; sourceTree = "<group>"; };
 		F91C815A2E8198AF00F2E861 /* MetroMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroMapVC.swift; sourceTree = "<group>"; };
 		F91C815C2E827DCF00F2E861 /* NetWorkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
 		F95A67872E7E9B6800A9B476 /* Patna Metro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Patna Metro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				F95A67D02E7EA42800A9B476 /* MetroModel.swift */,
+				F907945B2EF119F300294A7C /* CheckNewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				F91C815D2E827DCF00F2E861 /* NetWorkManager.swift in Sources */,
 				F95A67E72E7EA42800A9B476 /* Designable.swift in Sources */,
 				F95A67F12E7EBF9C00A9B476 /* RouteVC.swift in Sources */,
+				F907945C2EF119F300294A7C /* CheckNewModel.swift in Sources */,
 				F95A67E82E7EA42800A9B476 /* ViewExtension.swift in Sources */,
 				F95A67E92E7EA42800A9B476 /* AppDelegate.swift in Sources */,
 				F95A67EA2E7EA42800A9B476 /* SceneDelegate.swift in Sources */,
