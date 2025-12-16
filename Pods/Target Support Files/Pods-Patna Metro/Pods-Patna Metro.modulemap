@@ -1,0 +1,6 @@
+framework module Pods_Patna_Metro {
+  umbrella header "Pods-Patna Metro-umbrella.h"
+
+  export *
+  module * { export * }
+}

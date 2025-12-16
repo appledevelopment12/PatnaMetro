@@ -13,7 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+       // _ = NetworkManager.shared   // Start monitoring
         return true
     }
 
@@ -33,4 +33,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
+extension UIApplication {
+    func topMostViewController(base: UIViewController? = nil) -> UIViewController? {
+        let baseVC = base ?? connectedScenes
+            .compactMap { ($0 as? UIWindowScene)?.keyWindow }
+            .first?.rootViewController
+        
+        if let nav = baseVC as? UINavigationController {
+            return topMostViewController(base: nav.visibleViewController)
+        } else if let tab = baseVC as? UITabBarController {
+            return topMostViewController(base: tab.selectedViewController)
+        } else if let presented = baseVC?.presentedViewController {
+            return topMostViewController(base: presented)
+        }
+        return baseVC
+    }
+}
